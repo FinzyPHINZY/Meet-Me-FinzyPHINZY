@@ -133,8 +133,9 @@
 					Or send me a quick message with the links below:</p>
 				</div>
 			</section>
-<!-- 			<section>
-					<form method='POST' name='contact'><input type='hidden' name='form-name' value='contact' />
+			<section>
+					<form action="https://api.web3forms.com/submit" method='POST' name='contact'>
+						<input type="hidden" name="access_key" value="08e6af23-139a-4f63-b3d8-58c1826d70aa">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall">
 								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -145,17 +146,18 @@
 							<div class="col-12">
 								<textarea name="demo-message" id="demo-message" placeholder="Form submissions are disabled for the time being. If you need me, please reach out via email." rows="6"></textarea>
 							</div>
+							<div class="h-captcha" data-captcha="true"></div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><input disabled type="submit" value="Send Message" class="primary" /></li>
-									<li><input disabled type="reset" value="Reset" /></li>
+									<li><input  type="submit" value="Send Message" class="primary" /></li>
+									<li><input  type="reset" value="Reset" /></li>
 								</ul>
 							</div>
 						</div>
 					</form>
 				</section>
 			</section>
- -->
+
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
@@ -176,6 +178,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://web3forms.com/client/script.js" async defer></script>
 
 	</body>
 </html>
