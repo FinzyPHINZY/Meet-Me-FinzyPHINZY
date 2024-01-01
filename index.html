@@ -134,7 +134,7 @@
 				</div>
 			</section>
 			<section>
-					<form action="https://api.web3forms.com/submit" method='POST' name='contact'>
+					<form id="form" action="https://api.web3forms.com/submit" method='POST' name='contact'>
 						<input type="hidden" name="access_key" value="08e6af23-139a-4f63-b3d8-58c1826d70aa">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall">
@@ -173,13 +173,27 @@
 			</section>
 
 		<!-- Scripts -->
+			<script>
+				const form = document.getElementById('form');
+			
+				form.addEventListener('submit', function(e) {
+			
+				const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+			
+				if (!hCaptcha) {
+					e.preventDefault();
+					alert("Please fill out captcha field")
+					return
+				}
+			});
+			</script>
+			<script src="https://web3forms.com/client/script.js" async defer></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://web3forms.com/client/script.js" async defer></script>
-
+			
 	</body>
 </html>
