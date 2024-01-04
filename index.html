@@ -139,14 +139,19 @@
 						<input type="hidden" name="access_key" value="08e6af23-139a-4f63-b3d8-58c1826d70aa">
 						<div class="row gtr-uniform gtr-50">
 							<div class="col-6 col-12-xsmall">
-								<input type="text" name="demo-name" id="Name demo-name" value="" placeholder="Name" />
+								<input type="text" name="demo-name" id="Name demo-name" value="" placeholder="Name" required/>
 							</div>
 							<div class="col-6 col-12-xsmall">
-								<input type="email" name="demo-email" id=" Email demo-email" value="" placeholder="Email" />
+								<input type="email" name="demo-email" id=" Email demo-email" value="" placeholder="Email" required />
+							</div>	
+							<div class="col-12">
+								<input type="file" name="demo-file" id="  demo-file" placeholder="Leave your file." accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple rows="6"/>
+								<label for="demo-file">Add file if necessary</label>
 							</div>
 							<div class="col-12">
 								<textarea name="demo-message" id=" Message demo-message" placeholder="Leave your message." rows="6"></textarea>
-							</div>
+							 </div>
+						
 							<div class="h-captcha" data-captcha="true"></div>
 							<input type="hidden" name="redirect" value="https://finzyphinzy.github.io/Meet-Me-FinzyPHINZY/">
 							<div class="col-12">
