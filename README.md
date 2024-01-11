@@ -4,23 +4,23 @@ Welcome to my software engineering portfolio! Here, you'll find details about my
 
 ## Projects
 
-### Project 1: [Project Name 1]
+### Project 1: Living a simple life
 
-- Description: [A brief description of the project, its purpose, and the technologies used.]
-- Demo: [Link to the live demo if applicable.]
-- GitHub Repository: [Link to the GitHub repository.]
+- Description: A fully responsive, beautiful, and modern website showcasing minimalist design.
+- Demo: (https://finzyphinzy.github.io/Living-a-simple-life/)
+- GitHub Repository: (https://github.com/FinzyPHINZY/Living-a-simple-life)
 
-### Project 2: [Project Name 2]
+### Project 2: Guess the number
 
-- Description: [A brief description of the project, its purpose, and the technologies used.]
-- Demo: [Link to the live demo if applicable.]
-- GitHub Repository: [Link to the GitHub repository.]
+- Description:"Guess the Number" is a simple web-based game where players try to guess a randomly generated number. The game provides feedback on whether the guessed number is too high or too low, guiding the player to eventually discover the correct number. The project is implemented using HTML, CSS, and JavaScript, with a focus on manipulating the Document Object Model (DOM).
+- Demo: (https://finzyphinzy.github.io/Guess-My-Number/)
+- GitHub Repository: (https://github.com/FinzyPHINZY/Guess-My-Number)
 
-### Project 3: [Project Name 3]
+### Project 3: Minimalist Banking
 
-- Description: [A brief description of the project, its purpose, and the technologies used.]
-- Demo: [Link to the live demo if applicable.]
-- GitHub Repository: [Link to the GitHub repository.]
+- Description: This is a project that demonstrates mastery in Document Object Manipulation (DOM) through advanced JavaScript techniques.
+- Demo: Welcome to the Minimalist Bank Website, a project that demonstrates mastery in Document Object Manipulation (DOM) through advanced JavaScript techniques.
+- GitHub Repository: https://github.com/FinzyPHINZY/Minimalist-Banking
 
 ## Other Projects
 
@@ -30,9 +30,8 @@ Explore more of my projects on [GitHub](https://github.com/FinzyPHINZY/).
 
 Connect with me on social media:
 
-- [LinkedIn]("https://www.linkedin.com/in/finzyphinzy")
-- [Twitter](link-to-your-twitter)
-- [Instagram](link-to-your-instagram)
+- [LinkedIn](https://www.linkedin.com/in/finzyphinzy)
+- [Twitter](https://twitter.com/iamfinzyphinzy_)
 
 ## Contact
 
